@@ -32,6 +32,8 @@ The output is Counter which is 4 bit in size.
 
 	Create a folder in your name (Note: Give folder name without any space) and Create a new sub-Directory name it as Exp2 or counter_design for the Design and open a terminal from the Sub-Directory.
 Functional Simulation: 
+<img width="1705" height="882" alt="Screenshot 2025-09-01 090404" src="https://github.com/user-attachments/assets/8cb689bf-3401-4898-8cc7-d5efccbe3a60" />
+
 
 	Invoke the cadence environment by type the below commands 
 
@@ -46,13 +48,16 @@ Functional Simulation:
 ## Fig 2: Invoke the Cadence Environment
 
 
+
 ## Creating Source Code:
 
 	In the Terminal, type gedit <filename>.v or <filename>.vhdl depending on the HDL Language you are to use (ex: 4b_up_downCount.v).
 
 	A Blank Document opens up into which the following source code can be typed down.
 
-(Note : File name should be with HDL Extension)
+
+<img width="1915" height="1078" alt="Screenshot 2025-09-01 090634" src="https://github.com/user-attachments/assets/e24a583f-30ef-4dfb-9a4c-d2e05432ed52" />
+
 
 ### Verilog code for 4-Bit Up-Down Counter:
 
@@ -80,12 +85,15 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
+<img width="1919" height="1079" alt="Screenshot 2025-09-01 090756" src="https://github.com/user-attachments/assets/754bd4e0-6bd0-4153-9018-85179c922801" />
+
 
 ## Fig 4: cds.lib file Creation
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
+<img width="1917" height="1065" alt="Screenshot 2025-09-01 090832" src="https://github.com/user-attachments/assets/7f518bbb-7d9a-49c3-a67a-15d34230e305" />
 
 	We are simulating verilog design without using any libraries
 
@@ -98,10 +106,14 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+<img width="1918" height="1079" alt="Screenshot 2025-09-01 090936" src="https://github.com/user-attachments/assets/deb15e5c-a5fc-4f9b-af1f-9fddd8c2bae8" />
+
 
 ## Fig 6: Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+<img width="1915" height="1073" alt="Screenshot 2025-09-01 091308" src="https://github.com/user-attachments/assets/1a4bb203-e212-440d-8bb9-ca6d861acf29" />
+
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -150,9 +162,11 @@ It contains statements that map logical library names to their physical director
   
 9.	It also establishes net connectivity and prepares all of this for simulation
     
+    
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
 ## Fig 8: Elaboration Launch Option
+![WhatsApp Image 2025-09-01 at 09 49 34_1c127836](https://github.com/user-attachments/assets/4b092e91-0301-4f6e-a39a-f6c59a6fa29a)
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
@@ -165,10 +179,11 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+<img width="1919" height="1076" alt="Screenshot 2025-09-01 092904" src="https://github.com/user-attachments/assets/61ed9a19-fa3c-44e7-bb1a-6a69cc4cd70d" />
+
 
 ## Fig 10: Simulation Waveform Window
-
-## Fig 11: Simulation Waveform Window
+<img width="1916" height="1076" alt="Screenshot 2025-09-01 092946" src="https://github.com/user-attachments/assets/d02f5d9f-11c9-49fe-8ce5-2f290e8d461a" />
 
 ### Result
 
